@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+   <title>Unit 6 - Algorthims </title>
+  <link rel="icon" type="image/jpg" href="FaviconSmall.jpg">
+  <link rel="stylesheet" href="mystyle.css" type="text/css">
+  
+</head>
+
+<body>
+<div class="banner">
+    <h1>Thomas A Edison Career and Technical Eduacation High School</h1>
+    <h1>Web Development</h1>
+    <h1>Unit 5</h1>
+    <h1>Review</h1>
+    <h1>03/16/2023</h1>
+    <h1>Done By: Jaunel Deans</h1>
+   <img id="logo" src="Fabviconbig.jpg">
+     </div>
+
+
+  <div class="container">
+  
+    <div class="wave" id="l1">
+      Lesson 1: Algorithms Solve Problems
+<br>
+     Summary: In Lesson#1, we learnt how computer scientists think about problems and the way different algorithms can be designed to solve them. We also discovered different types of algorthims, Sequencing: Putting steps in an order (Step by step in order), Selection: Deciding which steps to do next (Conditionals -If else) and Iteration: Doing some steps over and over (Loop). 
+
+<br>
+  CFU: In your own words explain the difference between a problem and an algorithm.
+  <br>
+  <br>
+    Answer: A problem is a general description of task that can (or cannot) be solved with an algorithm. An algorithm is a finite set of instructions that accomplish a task.
+    </div>
+
+    <div class="wave" id="l2">
+     Lesson 2: Algorithm Efficiency
+<br>
+      Summary: In Lesson#2, we learnt how computers describe how fast different algorithms are and the fact that different algorithms that solve the same problem may be faster than other. We explored the effeciency a Binary and Linear search.
+<br>
+<br>
+  <!--image of graph comparing all-->  
+<br>
+    <ol>
+      <li>CFU: What is the third step using Binary Search to look for the number 32 in this list: 1, 2, 3, 4, 10, 11, 16, 25, 32, 33, 45, 47, 51, 69, 75</li> 
+<br>
+      Answer:  Compare the number 33 to the given number
+<br>
+<br>
+      <li>Which of the following is true of two algorithms designed to solve the same problem?</li>
+      <br>
+      Answer:  It is possible for two algorithms with different efficiencies to solve the same problem
+    </ol>
+
+    </div>
+
+    <div class="wave" id="l3">
+      Lesson 3: Unreasonable Time
+    <br>
+       Summary: We explored two different types of algorithms that seem similar but take fundamentally different amounts of computing power to run.
+<br>
+   <ol>
+     <li>
+      CFU: Which of the follow efficiencies would be considered unreasonable?
+     </li>
+     <br>
+     <br>
+     Answer: 2^n (exponential)
+     <li>
+  CFU: A team of programmers is trying to determine the efficiency of a piece of code. They run the code with inputs of different sizes and also record the number of iterations through the core block of code. The data is recorded in the table below.
+       <br>
+       <br>
+     <img src="unit6Lesson3CFU2.png">
+       <br>
+       Based on the data provided, does this algorithm run in a reasonable or unreasonable time? Explain your answer
+     </li>
+     Answer: The reasonable and unreasonable algorithm is differentiated based on the growth rate of the iterations as input is increased. Since the algorithm does not grow exponentially, then we can conclude that the algorithm runs in a reasonable time. n = 20i ; number of iterations ; i = input size.
+   </ol>
+    </div>
+
+    <div class="wave" id="l4">
+      Lesson 4: The Limits of Algorithms
+    <br>
+      Summary:In Lesson#4, we explored two different kinds of problems at the limits of what a computer is capable of solving and learn the difference in how computer scientists respond.
+
+    <br>
+      <ol>
+        <li>CFU: In which of the following situations is it most appropriate to use a heuristic solution?</li>
+        <br>
+        <br>
+        Answer:  The only algorithms that provide exact solutions run in unreasonable time but exact solutions are not necessary. 
+        <br>
+        <br>
+        <li>CFU: Problems that are undecidable and algorithms that are unreasonable both touch on the limits of the kinds of computing that a computer can accomplish. In your own words, explain the difference between undecidable problems and unreasonable time algorithms.</li>
+        <br>
+        <br>
+        Answer: Undecidable problems are issues with no solution. They should give a "yes" or "no" answer, but no algorithm can answer correctly on all inputs. A famous undecidable problem is the Halting problem in computability theory. Unreasonable algorithms grow exponentially. The time to solve an unreasonable algorithm grows quickly, even for relatively small problem sizes.
+      </ol>
+    
+      <br>
+     
+    </div>
+
+    <div class="wave" id="l5">
+      Lesson 5: Parallel and Distributed Algorithms
+    <br>
+      Summary: In Lesson #5, learnt how algorithms are designed to run on many computers and the benefits and challenges that result.
+    <br>
+      <ol>
+        <li>
+          CFU: An algorithm was initially written sequentially. Later it was determined that a parallel solution was possible and so the algorithm rewritten. The times to run each version of the algorithm are included in the table below.
+          <br>
+          <br>
+          <img src="unit6Lesson5CFU1.png">
+          <br>
+          <br>
+          What is the speedup of this parallel solution?
+        </li>
+        Answer: 3
+        <br>
+        <br>
+        <li>
+          Parallel algorithms typically will be faster than sequential algorithms, and as you run the process on more computers it will continue to grow faster. In your own words, explain why the speedup of a parallel algorithm will eventually reach some limit.
+        </li>
+        <br>
+        <br>
+    Answer:In a parallel algorithm, every time a new processor is added, each one helps a little less. Due to this decline, the speedup eventually reaches a ceiling.
+      </ol>
+    </div>
+
+  
+  </div>
+</body>
+
+</html>
